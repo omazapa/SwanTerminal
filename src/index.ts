@@ -48,7 +48,7 @@ namespace CommandIDs {
  */
 const plugin: JupyterFrontEndPlugin<ITerminalTracker> = {
   activate,
-  id: '@jupyterlab/terminal-extension:plugin',
+  id: '@swan/terminal-extension:plugin',
   provides: ITerminalTracker,
   requires: [ISettingRegistry],
   optional: [
@@ -80,7 +80,7 @@ function activate(
   themeManager: IThemeManager | null,
   runningSessionManagers: IRunningSessionManagers | null
 ): ITerminalTracker {
-  console.log("SWAN TERMINAL ACTIVATED!")
+  console.log("SWAN Terminal Activated");
   const { serviceManager, commands } = app;
   const category = 'Terminal';
   const namespace = 'terminal';
