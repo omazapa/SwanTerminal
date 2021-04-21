@@ -80,7 +80,7 @@ function activate(
   themeManager: IThemeManager | null,
   runningSessionManagers: IRunningSessionManagers | null
 ): ITerminalTracker {
-  console.log("SWAN Terminal Activated");
+  console.log('JupyterLab extension swanterminal is activated!');
   const { serviceManager, commands } = app;
   const category = 'Terminal';
   const namespace = 'terminal';
