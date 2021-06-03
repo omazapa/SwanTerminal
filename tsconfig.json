@@ -2,8 +2,7 @@
   "extends": "./tsconfigbase",
   "compilerOptions": {
     "outDir": "lib",
-    "rootDir": "src",
-    "types": ["webpack-env"]
+    "rootDir": "src"
   },
   "include": ["src/*"],
   "references": []
