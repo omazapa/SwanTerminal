@@ -1985,6 +1985,11 @@
         "version": "97ec01d5a4a8146830589a92ac3efb5101e62450ac886c28b9a14a564caeb026",
         "signature": "aa84cebfb43b82ff1805342427ac18a483d9536efd83278b5ae1e6b7b8e30ade",
         "affectsGlobalScope": false
+      },
+      "./node_modules/@types/webpack-env/index.d.ts": {
+        "version": "5b3e6ce357a7a1a07c858432a3d2002750058725874db09a03a0a9e899d861f5",
+        "signature": "5b3e6ce357a7a1a07c858432a3d2002750058725874db09a03a0a9e899d861f5",
+        "affectsGlobalScope": true
       }
     },
     "options": {
@@ -2004,7 +2009,9 @@
       "sourceMap": true,
       "strictNullChecks": true,
       "target": 4,
-      "types": [],
+      "types": [
+        "webpack-env"
+      ],
       "outDir": "./lib",
       "rootDir": "./src",
       "configFilePath": "./tsconfig.json"
@@ -5972,6 +5979,7 @@
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/@types/react/index.d.ts",
       "./node_modules/@types/scheduler/tracing.d.ts",
+      "./node_modules/@types/webpack-env/index.d.ts",
       "./node_modules/csstype/index.d.ts",
       "./node_modules/popper.js/index.d.ts",
       "./node_modules/typescript/lib/lib.dom.d.ts",
