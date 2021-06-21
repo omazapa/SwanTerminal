@@ -306,7 +306,7 @@ export function addCommands(
   tracker: WidgetTracker<MainAreaWidget<ITerminal.ITerminal>>,
   settingRegistry: ISettingRegistry,
   options: Partial<ITerminal.IOptions>
-) {
+): void {
   const { commands, serviceManager } = app;
 
   // Add terminal commands.
@@ -315,8 +315,6 @@ export function addCommands(
     caption: 'Start a new terminal session',
     icon: args => (args['isPalette'] ? undefined : terminalIcon),
     execute: async args => {
-      console.log("addCommand args = ")
-      console.log(args)
       // wait for the widget to lazy load
       let Terminal: typeof WidgetModuleType.Terminal;
       try {
