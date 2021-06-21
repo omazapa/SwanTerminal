@@ -1,6 +1,6 @@
 {
   "name": "@swan/terminal-extension",
-  "version": "3.0.11",
+  "version": "0.0.1",
   "description": "JupyterLab - Terminal Emulator Extension",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
   "bugs": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/jupyterlab/jupyterlab.git"
   },
-  "license": "BSD-3-Clause",
+  "license": "AGPL-3.0",
   "author": "Project Jupyter",
   "sideEffects": [
     "style/**/*.css",
