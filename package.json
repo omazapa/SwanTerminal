@@ -84,7 +84,9 @@
     "extension": true,
     "schemaDir": "schema",
     "outputDir": "swanterminal/labextension",
-    "disabledExtensions": ["@jupyterlab/terminal-extension:plugin"]
+    "disabledExtensions": [
+      "@jupyterlab/terminal-extension:plugin"
+    ]
   },
   "styleModule": "style/index.js"
 }
